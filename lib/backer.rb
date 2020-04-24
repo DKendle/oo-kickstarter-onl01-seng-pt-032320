@@ -8,7 +8,6 @@ class Backer
   end
   
   def back_project(project_obj)
-    project_obj
     @back_projects << project_obj
   end
 end
